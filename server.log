@@ -1,0 +1,11 @@
+
+> rest-express@1.0.0 dev
+> tsx server/index.ts
+
+Swagger UI disponível em /api-docs
+1:41:23 AM [express] Servidor rodando em 0.0.0.0:3001
+1:41:28 AM [express] GET /api/user 401 in 5ms
+1:41:28 AM [express] GET /api/user 200 in 7ms
+1:41:28 AM [express] GET /api/products 200 in 19ms
+1:41:28 AM [express] GET /api/user 304 in 10ms
+1:41:28 AM [express] GET /api/users 304 in 10ms

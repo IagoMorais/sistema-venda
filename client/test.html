@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teste de Carregamento</title>
+</head>
+<body>
+    <h1>Teste de Carregamento - ControlhePDV</h1>
+    <div id="test-root"></div>
+    <script>
+        // Teste básico para verificar se o JavaScript está funcionando
+        document.getElementById('test-root').innerHTML = '<p style="color: green;">JavaScript está funcionando!</p>';
+        
+        // Verificar se React está disponível
+        if (typeof React !== 'undefined') {
+            document.getElementById('test-root').innerHTML += '<p style="color: blue;">React está carregado!</p>';
+        } else {
+            document.getElementById('test-root').innerHTML += '<p style="color: red;">React NÃO está carregado!</p>';
+        }
+    </script>
+</body>
+</html>
