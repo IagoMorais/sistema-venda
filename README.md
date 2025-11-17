@@ -228,7 +228,7 @@ GOOGLE_SHEETS_PRIVATE_KEY=...
 
 ## 📄 Licença
 
-MIT © 2025
+ Conecta Facil © 2025
 
 ---
 
